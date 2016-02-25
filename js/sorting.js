@@ -91,7 +91,7 @@ $(window).load(function(){
 				} else {
 					//2-4 Columns Portfolio Type
 					for (i = i_start-1; i < i_start+now_load-1; i++) {
-						loaded_object = loaded_object + '<div class="element col-sm-4  gall '+ addon_options.items[i].category +'"><a class="plS" href="'+ addon_options.items[i].src +'" rel="prettyPhoto[gallery2]"><img class="img-responsive picsGall" src="'+ addon_options.items[i].src +'" alt="pic2 Gallery"/></a><div class="view project_descr "><h3><a href="#">'+ addon_options.items[i].title +'</a></h3><ul><li><i class="fa fa-eye"></i>'+ addon_options.items[i].view_count +'</li><li><a  class="heart" href="#"><i class="fa-heart-o"></i>'+ addon_options.items[i].lika_count +'</a></li></ul></div></div>';
+						loaded_object = loaded_object + '<div class="element col-sm-4  gall '+ addon_options.items[i].category +'"><a class="plS" href="'+ addon_options.items[i].src +'" rel="prettyPhoto[gallery2]"><img class="img-responsive picsGall" src="'+ addon_options.items[i].src +'" alt="pic2 Gallery"/></a><div class="view project_descr "><h3><a href="#">'+ addon_options.items[i].title +'</a></h3><ul><br></ul></div></div>';
 					}
 				}
 				
